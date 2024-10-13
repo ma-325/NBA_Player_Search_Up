@@ -1,4 +1,4 @@
-NBA Player Info Lookup
+NBA Player Information Lookup
 
 This project is designed to demonstrate accessing API keys by creating a web application that retrieves NBA player information. It features both a front end and back end, allowing users to search for player details using their Player ID. If this project is copied, an API key must be obtained from the "Ball Don't Lie" API website. Below are examples of how the program will look when running.
 
