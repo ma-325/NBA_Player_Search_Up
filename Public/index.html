@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NBA Player Info</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            display: flex;
+            justify-content: space-between;
+            margin: 20px;
+        }
+        .input-area {
+            flex: 1;
+            margin-right: 20px;
+        }
+        .player-list {
+            flex: 0 0 300px;
+            border: 1px solid #ddd;
+            padding: 10px;
+            background-color: #f9f9f9;
+            height: 400px;
+            overflow-y: scroll; 
+        }
+        #playerInfo {
+            margin-top: 20px;
+            font-weight: bold;
+        }
+        h3 {
+            text-align: center;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 10px;
+        }
+        li {
+            margin-bottom: 10px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="input-area">
+            <h1>NBA Player Information</h1>
+            
+            <label for="playerId">Enter Player ID:</label>
+            <input type="text" id="playerId" placeholder="e.g. 23">
+            
+            <button id="searchButton">Get Player Info</button>
+            
+            <div id="playerInfo"></div>
+        </div>
+
+        <div class="player-list">
+            <h3>Popular Players </h3>
+            <ul>
+                <li>LeBron James (ID: 237)</li>
+                <li>Stephen Curry (ID: 115)</li>
+                <li>Chris Paul (ID: 15)</li>
+                <li>James Harden (ID: 192)</li>
+                <li>Giannis Antetokounmpo (ID: 20)</li>
+                <li>Kawhi Leonard (ID: 274)</li>
+                <li>Russell Westbrook (ID: 472)</li>
+                <li>Kyrie Irving (ID: 132)</li>
+                <li>Anthony Davis (ID: 513)</li>
+                <li>Damian Lillard (ID: 278)</li>
+                <li>Joel Embiid (ID: 200)</li>
+                <li>Jayson Tatum (ID: 212)</li>
+                <li>Paul George (ID: 129)</li>
+                <li>Jimmy Butler (ID: 79)</li>
+
+            </ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
